@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding-top: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+}
+
+
+.navbar{
+    background-color: white;
+    padding: 0 !important;
+    height: 2.9rem !important;
+}
+
+.navbar-brand{
+color: #250c77 !important ;
+
+} 
+
+img{
+    width: 83px !important;
+    height: 2.9rem;
+  
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+    color: #250c77 !important;
+}
+
+.navbar-nav li a{
+    color: #250c77 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav li a:hover{
+    background-color:  #250c77 ;
+    color: white !important;
+    border-radius: 15px;
+
+}
+
+/* Banner Secction */
+
+
+
+#banner{
+    
+    color:  #250c77;
+    height: 98vh;
+    padding-top: 10%;
+}
+
+
+
+ .col-md-6 img{
+     /* border: 2px solid green; */
+    width:  100% !important;
+    height: 60% !important ;
+}  
+
+.col-md-4{
+    /* border: 2px solid red; */
+}
+
+
+
+.promo-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+
+.promo-body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+.btn{
+    margin: auto;
+    color: white !important;
+    background-color: #250c77 !important;
+    border-radius: 20px !important;
+}
+
+.btn:hover{
+    margin: auto;
+    background-color: rgb(78, 104, 255) !important;
+    color: #250c77 !important;
+    border-radius: 20px;
+}
+
+#talk{
+    font-size: 20px;
+    padding: 10px;
+    width: 130px !important;
+    height: 50px !important;
+}
+/*  
+.col-md-2 img{
+    width: 100px;
+    height: 100px;
+}  */
+
+
+/* Services section */
+
+.service{
+    height: 100vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.service h2{
+    font-size: 40px;
+    text-align: center;
+    color: #250c77;
+   margin-bottom: 30px;
+}
+
+.service-img
+{
+    /* margin-left: 90px; */
+    height: 200px;
+    width: 200px;
+}
+
+.service h3{
+    text-align: center;
+}
+
+.service p{
+    margin: 40px;
+    text-align: center;
+}
+
+.btn{
+    margin: auto;
+    background-color: #250c77;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    margin: auto;
+    background-color: white;
+    color: #250c77;
+    border-radius: 20px;
+}
+
+/* Portfolio */
+
+/* About Us */
