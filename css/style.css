@@ -1,0 +1,282 @@
+body{
+    font-family: 'Viaoda Libre', cursive;
+    background-color: #fffff0;   
+}
+
+.col{
+    border-style: none !important; 
+}
+
+.logo{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 5rem;
+}
+.border{
+    /* border: solid red 2px; */
+    padding: 50px 30px;
+}
+.navbar-nav{
+    margin: 0 50px;
+
+}
+.nav-item{
+    padding-right: 50px;
+}
+
+.nav-link{
+    color: #250c77 !important;
+    font-weight: 900;
+}
+
+.nav-link:hover{
+    color: #ed642b !important;
+}
+
+.navbar-light, .navbar-toggler-icon{
+    color:#250c77 !important;
+}
+
+header{
+
+    background-color: #250c77;
+/* 
+    width: 100%;
+    height: 100vh; */
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+
+
+#banner{
+    
+    color:  #250c77;
+    height: 98vh;
+    padding-top: 10%;
+}
+
+
+
+ .col-md-6 img{
+     /* border: 2px solid green; */
+    width:  100% !important;
+    height: 60% !important ;
+}  
+
+.col-md-4{
+    /* border: 2px solid red; */
+}
+
+
+
+.promo-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+
+.promo-body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+.btn{
+    margin: auto;
+    color: white !important;
+    background-color: #250c77 !important;
+    border-radius: 20px !important;
+}
+
+.btn:hover{
+    margin: auto;
+    background-color: rgb(78, 104, 255) !important;
+    color: #250c77 !important;
+    border-radius: 20px;
+}
+
+#talk{
+    font-size: 20px;
+    padding: 10px;
+    width: 130px !important;
+    height: 50px !important;
+}
+
+
+
+
+
+/* .cover--text{
+    font-size: 10vw;
+    background-color: #250c77;
+    color: white;
+    font-family: 'Oswald', sans-serif;;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    border: 2px khaki dashed;
+    width: 80vw;
+    height: 80vh;
+
+
+} */
+
+/* .cover-text p{
+
+}
+ */
+
+
+
+/***************************************************Stating of Services*****************************************************************************  */
+.what-we-do{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding: 15px 0px;
+    background-color:#f6f6f6;  
+    color: #250c77;
+    text-decoration: underline;
+ 
+}
+
+
+.services{
+    background-color:#fffff0;  
+    text-align: center;
+    /* border: 2px solid green; */
+
+}
+
+
+
+.sub-service h2{
+    color: #250c77;
+    padding: 0px 30px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #c7ffd8;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+.sub-service p{
+    color: black;
+    font-weight: 600;
+    background-color: #c7ffd8;
+    border-radius: 0px 0px 20px 20px;
+    padding: 2em;
+}
+
+.sub-service{
+    
+    display: inline-block;
+    /* background-color: azure; */
+    /* border-radius: 20px; */
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    padding: 1em ;
+    -webkit-transition:transforn 2s ease-out;
+    -moz-transition:transforn 2s ease-out;
+    -o-transition: transforn 2s ease-out;
+    transition:transforn 2s ease-out;
+   
+}
+.sub-service:hover{
+  
+    transform: translateX(20px);
+}
+
+.sub-service h2{
+    font-size: 3rem;
+}
+/***************************************************Ending of Services*****************************************************************************  */
+
+/***************************************************Starting of Protfolio*****************************************************************************  */
+.our-work{
+    font-family: 'Bebas Neue', cursive; 
+    text-align: center;
+    padding: 15px 0px;
+    background-color:#f6f6f6;  
+    color: #250c77;
+    text-decoration: underline;
+  
+}
+.portfolio{
+    background-color:#fffff0;  
+    text-align: center;
+    /* height: 50vh; */
+    /* border: solid gold 2px; */
+}
+
+.portfolio-item{
+    font-weight: 900;
+    font-size: 30px;
+    background-color:#fffff0;  
+    /* border: solid 2px greenyellow; */
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+
+.portfolio--img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.portfolio--text{
+    color: #250c77;
+    margin-top: 15px;
+  /* margin: auto auto; */
+}
+
+.contact-us{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding: 15px 0px;
+    background-color:#f6f6f6;  
+    color: #250c77;
+    text-decoration: underline;
+   
+}
+.contatact--us{
+    margin-top: 50px;
+    background-color: #fffff0;
+}
+
+/* Starting of Footer */
+#mc_embed_signup{
+    font-family: 'Viaoda Libre', cursive !important; 
+    width: 50vw;
+    max-width: 500px;
+    margin: 0px auto;
+    background-color: #fffff0;
+    text-align: center !important;
+}
+
+#mc-embedded-subscribe{
+    
+    align-items: center !important;
+    margin: auto auto !important;
+    background-color: #250c77 !important;
+}
+
+#mc-embedded-subscribe:hover{
+    
+    align-items: center !important;
+    margin: auto auto !important;
+    background-color: coral !important;
+}
+/* Ending of Footer */
+
+.copyright{
+    margin-top: 50px;
+    color: #250c77;
+    background-color: #fffff0;
+    text-align: center;
+}
