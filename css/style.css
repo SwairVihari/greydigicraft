@@ -92,7 +92,7 @@ header{
 
 .btn:hover{
     margin: auto;
-    background-color: rgb(78, 104, 255) !important;
+    background-color: #ed642b !important;
     color: #250c77 !important;
     border-radius: 20px;
 }
